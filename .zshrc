@@ -102,7 +102,9 @@ alias ohmyzsh="vim ~/.oh-my-zsh"
 alias zshreload="source ~/.zshrc"
 
 # Auto Exec
-neofetch
+neofetch --colors 12 12 12 12 15 15 --ascii_colors 12 12 --color_blocks off
 
 # Rbenv
 eval "$(rbenv init -)"
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
