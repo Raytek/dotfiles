@@ -102,7 +102,7 @@ alias ohmyzsh="vim ~/.oh-my-zsh"
 alias zshreload="source ~/.zshrc"
 
 # Auto Exec
-neofetch --colors 12 12 12 12 15 15 --ascii_colors 12 12 --color_blocks off
+neofetch --colors 12 12 12 12 255 255 --ascii_colors 12 12 --color_blocks off
 
 # Rbenv
 eval "$(rbenv init -)"
